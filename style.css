@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -7,4 +9,125 @@
   body {
     height: 100%;
     width: 100%;
+    font-family: "Jost", sans-serif;
+  }
+
+  :root{
+    --bg : "#1137ca";
+    --bgtwo :  " #0b48ed";
+    --bg-three : " #0a3cce";
+    --f-color: "#fff";
+    --f-cl-two : " #ffffff81";
+    --dada: "#dadada69";
+
+  }
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+  main{
+    position: relative;
+    overflow: hidden;
+  }
+  .page_one{
+    height: 100vh;
+    width: 100vw;
+    background-color: #cbde8777;
+    position: relative;
+  }
+  .page_one>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .page_one>nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    
+  }
+  .page_one>nav>img{
+    width:14%;
+    transform: translateY(-20px);
+  }
+  .nav-rgt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 20px;
+  }
+  .nav-rgt>button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: var(--bg-two);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+  }
+  .page-one-botom{
+    position: absolute;
+    bottom: 4%;
+    left: 15%;
+    height: 40vh;
+    width: 50vw;
+    
+  }
+  .page-one-botom>h1{
+    font-size: 6vw;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1;
+  }
+  .page-one-botom-end{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .page-one-botom-end>h4{
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight:500;
+  }
+  .page-one-botom-end>button{
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: var(--bgtwo);
+    width: 140px;
+  }
+  .page_two{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #0b48ed;
+  }
+  .page_three{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #0b47ed85;
   }

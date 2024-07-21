@@ -141,6 +141,8 @@
   .page2>h2{
     font-weight: 100;
     font-size: 2vw;
+    color: #fff;
+
   }
   .page2>h1{
     width: 90%;
@@ -177,6 +179,8 @@
   .page4>h2{
     font-weight: 100;
     font-size: 2vw;
+    color: #fff;
+
   }
   .page4>h1{
     width: 100%;
@@ -214,6 +218,7 @@
   .page6>h2{
     font-weight: 100;
     font-size: 2vw;
+    color: #fff;
   }
   .page6>h1{
     width: 100%;
@@ -221,4 +226,15 @@
     font-size: 4.5vw;
     line-height: 1.3;
     margin-top: 2vw;
+  }
+  .page7{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: #0b48ed;
+  }
+  .page7>canvas{
+   max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
   }
